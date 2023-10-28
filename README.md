@@ -1,6 +1,12 @@
-# Chaiyapat
+#include<stdio.h>
 
-Computer Laboratory 2566 - lab 01
+main()
 
-My name is Chaiyapat Sriakkhahad
-Edited by Github Text Editor.
+{
+      char yourname[100];
+      printf("What is your name?\t");
+      scanf("%s",yourname);
+      printf("hello,%s\n",yourname);
+      printf("Goodbye\n");
+
+}
